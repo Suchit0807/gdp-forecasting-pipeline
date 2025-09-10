@@ -73,13 +73,13 @@ Business framing: minimize forecast error to support budgeting, macro planning, 
 ```
 gdp-forecasting-pipeline/
 ├─ src/
-│  ├─ user_pipeline.py          # exported notebook logic (names & order preserved)
-│  ├─ notebook_with_outputs.py  # same logic with auto-display of last expression
-│  └─ pipeline.py               # automation CLI: batch-runs your logic
+│  ├─ user_pipeline.py                 # exported notebook logic (names & order preserved)
+│  ├─ notebook_with_outputs.py         # same logic with auto-display of last expression
+│  └─ pipeline.py                      # automation CLI: batch-runs your logic
 ├─ gdp-forecasting-pipeline/
-│  └─ GDP Forecasting Pipeline.ipynb          # Colab-friendly notebook
-├─ data/                        # place input files here (optional)
-├─ outputs/                     # predictions/metrics land here
+│  └─ GDP_Forecasting_Pipeline.ipynb   # Colab-friendly notebook
+├─ data/                               # place input files here (optional)
+├─ outputs/                            # predictions/metrics land here
 ├─ requirements.txt
 ├─ .gitignore
 ├─ LICENSE
