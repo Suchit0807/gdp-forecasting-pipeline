@@ -78,10 +78,6 @@ gdp-forecasting-pipeline/
 │  └─ pipeline.py               # automation CLI: batch-runs your logic
 ├─ notebooks/
 │  └─ DataFrames.ipynb          # Colab-friendly notebook
-├─ docs/
-│  ├─ verification_report.md
-│  ├─ cell_verification_report.csv
-│  └─ notebook_notes.md
 ├─ data/                        # place input files here (optional)
 ├─ outputs/                     # predictions/metrics land here
 ├─ requirements.txt
