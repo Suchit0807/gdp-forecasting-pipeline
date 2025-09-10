@@ -197,7 +197,6 @@ We use **Root Mean Squared Error (RMSE)** as the **primary metric**.
 
 ## Reproducibility Notes
 - **Notebook → Script parity:** `src/user_pipeline.py` is exported from the notebook; variable/function names and execution order are preserved.  
-- **Colab-friendly:** `notebooks/DataFrames.ipynb` uses valid nbformat fields.  
 - **Determinism:** For LSTM, set seeds if strict reproducibility is required (GPU/parallelism may still introduce variance).
 
 ---
