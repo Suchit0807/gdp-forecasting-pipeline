@@ -29,7 +29,7 @@ It automates **data cleaning & transformations**, trains **ARIMA** (classical) a
 ## Project Summary
 This project compares **ARIMA** and **LSTM** for **GDP time-series forecasting** across multiple countries. It includes:
 
-- A **notebook** for exploration and visualization (`notebooks/DataFrames.ipynb`)
+- A **notebook** for exploration and visualization (`GDP_Forecasting_Pipeline.ipynb`)
 - An **exported script** with the exact notebook logic (`src/user_pipeline.py`)
 - A **CLI batch runner** to execute the pipeline for many files automatically (`src/pipeline.py`)
 - **RMSE-based** evaluation and a tidy results table
